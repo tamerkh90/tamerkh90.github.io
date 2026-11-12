@@ -1,0 +1,1 @@
+var e=(e,t)=>({he:e,ar:t});function t(e,t){return e?typeof e==`string`?e:e[t]:``}function n(e,t){return e.replace(/\{(\w+)\}/g,(e,n)=>String(t[n]??``))}export{n,t as r,e as t};
